@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 # Queries the blockgraph database (Mongo)
+# Maybe add Pylint
 
 app = FastAPI()
 
